@@ -1,4 +1,5 @@
 # 20220317_examen
+```sh
 ####Comandos git
 
 ##Iniciar git
@@ -39,7 +40,7 @@ git checkout <rama>
 ##Para sacar el log de todo
 git log --oneline --all
 
-##♠Para sacra log de todo con grafo
+##Para sacar log de todo con grafo
 git log --oneline --graph --all
 
 ##Comparar ramas
@@ -53,7 +54,7 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/arroyore98/20221604_examen.git
 git push -u origin main
-
+```
   
   ##ENLACES PROFE
   https://gist.github.com/repositorioinformatico/077b29bc25f8b48d492afd4d79cfac31
