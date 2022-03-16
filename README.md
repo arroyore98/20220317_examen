@@ -5,7 +5,7 @@
 ##Iniciar git
 git init
 
-##Adregar ficjhero a git
+##Adregar fichero a git
 git add
 
 ##Para ver el estado
@@ -45,6 +45,36 @@ git log --oneline --graph --all
 
 ##Comparar ramas
 git diff <sha rama1> <sha rama2>
+
+##fusionar rama (estando en una rama diferente):
+git merge nombrerama
+
+##Restaurar fichero (sin add):
+git restore f1
+
+##volver un paso atras un commit(con commit):
+git reset --hard HEAD~1
+
+##Arreglar un commit:
+git commit --amend -m "textodelcommit"
+
+##Cambiar nombre de rama:
+git branch -M main
+    
+##Borrar rama:
+git branch -d nombrerama
+    
+##Listar ramas:
+git branch -l
+
+##Rebase para borrar commits de la misma rama:
+git rebase --interactive "hash"
+
+##Merge para evitar conflicto:
+git merge --no-ff --no-edit rama1
+
+##Para ver diferencias entre commits: 
+git diff hash commit1 hash commit2 
 
 ##Subir a GIT
 echo "# 20221604_examen" >> README.md
